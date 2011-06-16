@@ -1,12 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    >
-<TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/hello"
-    />
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent">
+   
+   <LinearLayout 
+    	android:layout_height="30px" 
+    	android:orientation="horizontal" 
+    	android:id="@+id/ll_topMenu" 
+    	android:layout_width="fill_parent" 
+    	android:layout_marginLeft="10dip"
+    	android:layout_marginRight="10dip"
+    	android:layout_marginTop="5dip"
+    	android:background="#0000ff" 
+    	android:layout_gravity="center">
+    </LinearLayout>
+   <LinearLayout 
+		android:layout_height="fill_parent" 
+		android:id="@+id/ll_selectedCity" 
+		android:layout_gravity="center" 
+		android:orientation="vertical" 
+		android:layout_margin="10dip" 
+		android:background="#0000ff" 
+		android:layout_width="fill_parent">
+		
+       <TextView android:layout_height="wrap_content" 
+       android:id="@+id/tv_city" 
+       android:text="City : " 
+       android:layout_width="wrap_content" 
+       android:paddingLeft="5dip"
+       android:textAppearance="?android:attr/textAppearanceMedium">
+       </TextView>
+       <TextView android:layout_height="wrap_content" 
+       android:id="@+id/tv_currentTemp" 
+       android:text="Current : " 
+       android:layout_width="wrap_content" 
+       android:paddingLeft="5dip"
+       android:textAppearance="?android:attr/textAppearanceMedium">
+       </TextView>
+       <TextView android:layout_height="wrap_content" 
+       android:id="@+id/tv_min" 
+       android:text="Min : " 
+       android:layout_width="wrap_content" 
+       android:paddingLeft="5dip"
+       android:textAppearance="?android:attr/textAppearanceMedium">
+       </TextView>
+       <TextView android:layout_height="wrap_content" 
+       android:id="@+id/tv_max" 
+       android:text="Max : " 
+       android:layout_width="wrap_content" 
+       android:paddingLeft="5dip"
+       android:textAppearance="?android:attr/textAppearanceMedium">
+       </TextView>
+       <TextView android:layout_height="wrap_content" 
+       android:id="@+id/tv_condition" 
+       android:text="Condition : " 
+       android:layout_width="wrap_content" 
+       android:paddingLeft="5dip"
+       android:textAppearance="?android:attr/textAppearanceMedium">
+       </TextView>
+       <TextView android:layout_height="wrap_content" 
+       android:id="@+id/tv_humidity" 
+       android:text="Humidity : " 
+       android:layout_width="wrap_content" 
+       android:paddingLeft="5dip"
+       android:textAppearance="?android:attr/textAppearanceMedium">
+       </TextView>
+   </LinearLayout>
+    
+   <LinearLayout 
+    	android:layout_height="30px" 
+    	android:orientation="horizontal" 
+    	android:id="@+id/ll_bottomMenu" 
+    	android:layout_width="fill_parent" 
+    	android:layout_marginLeft="10dip"
+    	android:layout_marginRight="10dip"
+    	android:layout_marginBottom="5dip"
+    	android:background="#0000ff" 
+    	android:layout_gravity="center">
+    </LinearLayout>
+    
 </LinearLayout>

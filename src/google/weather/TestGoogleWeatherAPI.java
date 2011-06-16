@@ -1,6 +1,7 @@
 package google.weather;
 
 import android.app.Activity;
+import android.sax.*;
 import android.os.Bundle;
 /**
  * Tutorial on how to use the Google Weather API, all credits goes to plusprime on anddev.org
