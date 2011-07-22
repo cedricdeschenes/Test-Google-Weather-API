@@ -5,7 +5,7 @@
    android:layout_height="fill_parent">
    
    <LinearLayout 
-    	android:layout_height="30px" 
+    	android:layout_height="60px" 
     	android:orientation="horizontal" 
     	android:id="@+id/ll_topMenu" 
     	android:layout_width="fill_parent" 
@@ -14,6 +14,8 @@
     	android:layout_marginTop="5dip"
     	android:background="#E8E8E8" 
     	android:layout_gravity="center">
+       <ImageView android:src="@drawable/logo" android:layout_height="wrap_content" android:id="@+id/imageView1" android:layout_width="wrap_content"></ImageView>
+       		
     </LinearLayout>
    <LinearLayout 
 		android:layout_height="fill_parent" 
